@@ -18,5 +18,5 @@ void setup()
 // the loop function runs over and over again forever
 void loop()
 {
-  digitalWrite(led_green, HIGH); //infintely run this loop where we set the green LED on - High in this case equals +5V and LOW is 0V
+  digitalWrite(led_green, HIGH); //here we set the green LED on - High in this case equals +5V and LOW is 0V
 }
