@@ -94,11 +94,11 @@ Congratulations. You have opened your first sketch.
  ![Upload](../images/doneUploading.png)
  
  
- The green LED shouhld light up.
+ The green LED shouhld light up. If that happens then:
  
  ## Well done!!
  You have successfully programmed your first microcontroller! Take a moment to appreciate how awesome you are.
  
- 
+ Before you go to Task 2 have a little look at the code inside the Arduino sketch that you just uploaded. Can you figure out what it does?
  
  [To Task #2](https://github.com/dant14/Delta-sessions/tree/main/Week2/Task2)
