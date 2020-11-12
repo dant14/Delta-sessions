@@ -25,8 +25,7 @@ In this session you will be provided with readily assembled circuits - I would n
 ### Goals
 In this task:
   - We will be getting familiar with the Arduino IDE (what's this? - check the [key words](key-words) section).
-  - We will upload our first sketch to the arduino to activate the Green LED.
-  - We will learn the basics of the C programming language which is used in the arduino sketches.
+  - We will setup and upload our first sketch to the arduino to activate the Green LED.
 
 
 ## Session #1 Recap
