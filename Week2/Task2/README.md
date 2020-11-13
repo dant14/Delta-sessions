@@ -8,7 +8,7 @@ Do so only if instructed by me.
 ## Introduction 
 The C language is the most popular coding language for non-website applications (sometimes even used for those!). It can be simple yet also very complex.
 
-Fortunately for you guys the Arduino has made it as simple as can be. It provides many libraries that mostly do everything for you, you just need to know which functions to use.
+Fortunately for you guys Arduino is made to be simple. It provides many libraries that mostly do everything for you, you just need to know which functions to use.
 
 Enough talk.
 
@@ -68,7 +68,7 @@ Let's take a dive into the sketch:
 ### Functions
 The `delay()` that you just modified is called a function. In arduino this is what we call a built-in function.
 
-You don't see where it comes from you know from other arduino experts what it does (Google).
+You don't see where it comes from in the sketch. You just know from other arduino experts what it does (Google).
 
 > Functions are the main building block for all programming languages. An experienced engineer can write clear and simple functions to create complex, easy-to-read programs.
 
