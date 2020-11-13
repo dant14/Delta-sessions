@@ -14,9 +14,7 @@ Do so only if instructed by me.
 ## Introduction (Optional - skip to the Goals section below if you don't want to read it)
 Welcome back guys. Hope you had a decent half-term break. This week we will be hitting the road with the highly anticipated "programming of the arduino" part which I know you have all been itching to do. Due to the fact that I am required to quarantine until next Thursday means that I cannot be with you in person but Mr Rass has kindly set up the ICT room so I can help you remotely should you have difficulties with the software. 
 
-Therefore this session will be more of a follow-the-instructions type of session where you will be reading throught this page and the other similar ones in the other Task folders. Access these **README** worksheets from your internet browsers (Chrome or whatever else you usually use). DO NOT read them directly by downloading the files and opening them on your PCs as they won't be formatted properly and will look weird.
-
-The reason I am not simply providing you with the usual word file is because engineers don't use these very often when they are documenting code. Here on this website - GitHub - this is the most common way to provide instructions on how to use the code that is in a particular repository(what you are looking at right now is the repository where I am keeping this sessions materials).
+Therefore this session will be more of a follow-the-instructions type of session where you will be reading throught the pages in each Task folder. Access these **README** worksheets from your internet browsers (Chrome or whatever else you usually use). DO NOT read them directly by downloading the files and opening them on your PCs as they won't be formatted properly and will look weird.
 
 This is what I'll be doing now - I am providing you with instructions on how to use the code I have uploaded. In this specific case our first sketch (code file) is **Task1.ino**
 
