@@ -66,7 +66,7 @@ In this section you will not need to do anything, just try and read it to grasp 
 Let's take a dive into the sketch:
 
 ### Functions
-The `delay()` that you just modified was is called a function. In arduino this is what we call a built-in function.
+The `delay()` that you just modified is called a function. In arduino this is what we call a built-in function.
 
 You don't see where it comes from you know from other arduino experts what it does (Google).
 
