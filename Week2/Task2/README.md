@@ -5,9 +5,6 @@ Friendly reminder:
 > ### **PLEASE DO NOT REMOVE ANY OF THE COMPONENTS FROM THE BREADBOARDS FOR THIS SESSION**.
 Do so only if instructed by me.
 
-### Key words 
- - *Compile* - verb - the process where the arduino program takes the code and internally chews it up and produces binary files that the device can understand - you'd be shocked to know that pure C code is completely useless to microcontrollers - they need a "compiler" to transform the code we have written into a massive list of 1's and 0's (0010101110101010101111111111010101010101010101...and on it goes)
-
 ## Introduction 
 The C language is the most popular coding language for non-website applications (sometimes even used for those!). It can be simple yet also very complex.
 
@@ -23,11 +20,11 @@ In this task:
 
     
 ### Let's begin
-Close your previous sketch (no need to save it).
+ - Close your previous sketch (no need to save it).
 
-Go to the folder you downloaded and find the Task2 folder and open it.
+ - Go to the folder you downloaded and find the Task2 folder and open it.
 
-Now open *Task2.ino* .
+ - Now open *Task2.ino* .
 
 ### Upload the Task2 sketch
  - Verify the sketch with the first button at the top (like we did in Task #1). 
@@ -62,6 +59,10 @@ Can you see the difference in the blinking?
 
 ## C language basics
 
+In this section you will not need to do anything, just try and read it to grasp a bit of a basic understanding of the coding language we will be using as it will come in useful later. 
+
+> Don't worry if you don't remember it all, I'll be here to help if you need me!
+
 Let's take a dive into the sketch:
 
 ### Functions
@@ -76,9 +77,9 @@ So we know that the `delay(100)` function takes 1 parameter which is a simple in
 ### Line syntax
 Did you notice the `;` in the `delay(1000);`?
 
-If that was not there you will get an error when you verify. Try it by removing the `;`!
+If that was not there you will get an error when you verify. Try it by removing the `;` and verifying!
 
-This semicolon is essential in C - we use it to seperate one operation from the next. One of the most common mistakes in C is to forget to put a semicolon at the end of your line. Don't worry, it won't explode, it'll just give you an error.
+> This semicolon is essential in C - we use it to seperate one operation from the next. One of the most common mistakes in C is to forget to put a semicolon at the end of your line. Don't worry, it won't explode, it'll just give you an error.
 
 ### Comments
 
@@ -89,7 +90,7 @@ Let's look at line 1-3:
 */
  ```
  
- Notice how we start with `/*` and end with `*/`. In C this is called a "*Comment*". We use comments to leave ourselves helpful notes in the code. 
+ Notice how we start with `/*` and end with `*/`. Anything between these two is just a note to self. In *C* this is called a "*Comment*". We use comments to leave ourselves helpful notes in the code. 
  
  > *Comments don't affect our program.*
  
@@ -98,8 +99,44 @@ Let's look at line 1-3:
  `const int led_green  = 2; // pin number 2 connected to the green LED (try and find it on the breadboard)`
  
  ### Variable declarations
+ Let's take another look at this same line 5:
+ 
+ `int led_green  = 2; // pin number ...`
+ 
+ We will break this statement down.
+ 
+ `int` is the C way of declaring an integer. Immediately after that comes the variable name.
+ 
+ `led_green` -  this is our variable name. It can be whatever we want it to be but the rule of thumb is to make it as short and obvious as possible.
+ 
+ ` = 2;` - here we assign a value to our variable. In this case we have connected our LED to Pin number 2 so this will be the value of our variable. Note the semicolon separator.
+ 
+ `// pin number 2 connected...` - this is a single line comment. We covered these in the previous section.
+ 
  
  ### Arduino basic functions
+ You will have noticed there are 2 main functions in our sketch - `void setup()` and `void loop()`.
  
+ `void` is how we declare a function that does not return any result at the end.
  
- [To Task #3](https://github.com/dant14/Delta-sessions/tree/main/Week2/Task2)
+ The setup function looks like this:
+ ```
+ void setup()
+ {
+ ... // the contents here run only once
+ }
+ ```
+ 
+ The contents in the "body" of this function are found between the curly brackets (also known as braces) - `{ /*body of function goes here*/ }`. The `setup()` function is where we declare and initialise items that we will need to use later in the sketch.
+ 
+Now for the `loop` function - this function runs infinately and repeats itself about 1 million times per second if there is nothing inside to slow it down (like a `delay` function).
+```
+ void setup()
+ {
+ ... // the contents here run repeatedly forever until the power to the arduino is cut
+ }
+ ```
+ 
+ #### Enough C for now, let's move on to making the arduino do more fun things with the LEDs
+ 
+ [To Task #3](https://github.com/dant14/Delta-sessions/tree/main/Week2/Task3)
