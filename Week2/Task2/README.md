@@ -96,7 +96,7 @@ Let's look at line 1-3:
  
  There is another type of comment which can only be applied to one line: `//` This means that everything after this `//` will be ignored by the compiler until the next line begins. See line 5: 
  
- `const int led_green  = 2; // pin number 2 connected to the green LED (try and find it on the breadboard)`
+ `int led_green  = 2; // pin number 2 connected to the green LED (try and find it on the breadboard)`
  
  ### Variable declarations
  Let's take another look at this same line 5:
@@ -114,20 +114,22 @@ Let's look at line 1-3:
  `// pin number 2 connected...` - this is a single line comment. We covered these in the previous section.
  
  
- ### Arduino basic functions
- You will have noticed there are 2 main functions in our sketch - `void setup()` and `void loop()`.
+### Arduino basic functions
+You will have noticed there are 2 main functions in our sketch - `void setup()` and `void loop()`.
  
- `void` is how we declare a function that does not return any result at the end.
+`void` is how we declare a function that does not return any result at the end.
  
- The setup function looks like this:
- ```
- void setup()
- {
- ... // the contents here run only once
- }
- ```
+The setup function looks like this:
+```
+void setup()
+{
+... // the contents here run only once
+}
+```
  
- The contents in the "body" of this function are found between the curly brackets (also known as braces) - `{ /*body of function goes here*/ }`. The `setup()` function is where we declare and initialise items that we will need to use later in the sketch.
+The contents in the "body" of this function are found between the curly brackets (also known as braces) - `{ /*body of function goes here*/ }`. We put them on new lines because it's good practice and makes the code more readible.
+ 
+This `setup()` function is where we declare and initialise items that we will need to use later in the sketch.
  
 Now for the `loop` function - this function runs infinately and repeats itself about 1 million times per second if there is nothing inside to slow it down (like a `delay` function).
 ```
