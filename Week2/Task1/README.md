@@ -20,7 +20,7 @@ This is what I'll be doing now - I am providing you with instructions on how to 
 
 In this session you will be provided with readily assembled circuits - I would normally let you build them by yourselves but due to my in-person absence this week I have prepared them ready for you. 
 
-### Goals
+## Goals
 In this task:
   - We will be getting familiar with the Arduino IDE (what's this? - check the key words section).
   - We will setup and upload our first sketch to the arduino to activate the Green LED.
