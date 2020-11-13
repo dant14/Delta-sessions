@@ -9,9 +9,9 @@ Do so only if instructed by me.
  - *README* files - exactly what it means - "read me" - if you see a file called readme then you should read it...
  - *IDE* - Integrated Development Environment - you can think of it as a **text/code editor** that's so smart it can also compile your code and in our case even upload it to the device. Clever right?
  - *Sketch* - This is an arduino specific way of saying *Source code file* - this is where we will write code for the arduinos, in sketches
- - *Compile* - verb - the process where the arduino program takes the code and internally chews it up and produces binary files that the device can understand - you'd be shocked to know that pure C code is completely useless to microcontrollers - they need a "compiler" to transform the code we have written into a massive list of 1's and 0's (0010101110101010101111111111010101010101010101...and on it goes)
 
-## Introduction (Optional - skip to the [Goals section](goals) if you don't want to read it)
+
+## Introduction (Optional - skip to the Goals section below if you don't want to read it)
 Welcome back guys. Hope you had a decent half-term break. This week we will be hitting the road with the highly anticipated "programming of the arduino" part which I know you have all been itching to do. Due to the fact that I am required to quarantine until next Thursday means that I cannot be with you in person but Mr Rass has kindly set up the ICT room so I can help you remotely should you have difficulties with the software. 
 
 Therefore this session will be more of a follow-the-instructions type of session where you will be reading throught this page and the other similar ones in the other Task folders. Access these **README** worksheets from your internet browsers (Chrome or whatever else you usually use). DO NOT read them directly by downloading the files and opening them on your PCs as they won't be formatted properly and will look weird.
@@ -24,7 +24,7 @@ In this session you will be provided with readily assembled circuits - I would n
 
 ### Goals
 In this task:
-  - We will be getting familiar with the Arduino IDE (what's this? - check the [key words](key-words) section).
+  - We will be getting familiar with the Arduino IDE (what's this? - check the key words section).
   - We will setup and upload our first sketch to the arduino to activate the Green LED.
 
 
