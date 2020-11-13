@@ -90,7 +90,7 @@ void loop()
 
 #### Now you have all the LEDs working, try and make a traffic light system!
 
-Hint: start by adding delays with different lenghts between the `digitalWrite` functions like this:
+> Hint: start by adding delays with different lenghts between the `digitalWrite` functions like this:
 
 ```
   digitalWrite(led_green, HIGH); //here we set the green LED on - High in this case equals +5V and LOW is 0V
@@ -102,6 +102,6 @@ Hint: start by adding delays with different lenghts between the `digitalWrite` f
   // the rest is up to you :)
 ```
 
-Another Hint: don't forget that you need to switch each LED on/off at various points, if you forget to turn it off you will wonder why nothing is happening!
+> Another Hint: don't forget that you need to switch each LED on/off at various points, if you forget to turn it off you will wonder why nothing is happening!
  
  [To Task #4 - Advanced](https://github.com/dant14/Delta-sessions/tree/main/Week2/Task3)
