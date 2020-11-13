@@ -4,7 +4,7 @@
  - *Compile* - verb - the process where the arduino program takes the code and internally chews it up and produces binary files that the device can understand - you'd be shocked to know that pure C code is completely useless to microcontrollers - they need a "compiler" to transform the code we have written into a massive list of 1's and 0's (0010101110101010101111111111010101010101010101...and on it goes)
 
 
-This task will also be purely practical without too much chatter.
+#### This task will now be practical without any more chatter.
 
 ## Goals
 In this task:
@@ -22,4 +22,4 @@ In this task:
 
 
 ## Next week
-In our next Friday session we will look at how to operate a proximity sensor on Arduino and use it as an automatic trigger for various sequences. We will also learn about receiving messages from it to help us know what it is doing.
+In our next Friday session we will look at how to operate a proximity sensor and/or a motion sensor on Arduino and use it as an automatic trigger for various sequences. We will also learn about receiving messages from it to help us know what it is doing.
