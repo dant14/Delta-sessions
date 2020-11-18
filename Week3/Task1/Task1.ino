@@ -25,11 +25,13 @@ void loop()
     Serial.println("My name is Arduino :)");
     delay(1000);
     Serial.println("Beep, beep!");
+    delay(10);
 
   
-    beep(700, 300); // first number is the frequency in HZ, second one is the duration of the beep in milliseconds
+    beep(700, 300); // first number is the frequency in Hertz(Hz), second one is the duration of the beep in milliseconds (ms)
     delay(500);
-    beep(700, 300);
+    beep(700, 300); // a 700Hz tone is roughly the middle of a piano, 300ms is less than half a second
+    delay(2000);
     stopFlag = 1;
   }
 }
