@@ -5,6 +5,7 @@ Welcome to week 3 Electronics.
 Today we are going to learn how to use ultrasonic sensors to measure distance and make some noise with Arduino. Here we go...
 
 ## Task Goals
+
 We will now see what it means to recive data in a readable format back from the Arduino and read it on our PCs.
 
 ## Instructions
@@ -25,7 +26,7 @@ We will now see what it means to recive data in a readable format back from the 
 
 - What is the message?
 
-- Try changing the text or adding more and see if you can get it back on the "console window". *Hint: see line 23, 25 and 27 - change and/or duplicate any of those on a new line*
+- Try changing the text or adding more and see if you can get it back on the "console window". *Hint: see line 23, 25 and 27 - change and/or duplicate any of those on a new line with a copy and paste*
 
 ### Make it buzz
 
@@ -37,5 +38,23 @@ We will now see what it means to recive data in a readable format back from the 
 
 - use another jumper to connect the positive (+) leg of the buzzer to pin 8 of the Arduino.
 
-If you are struggling with the steps above look at this schematic: (blue box represents the Arduino)
+If you are struggling with the steps above look at this schematic below: (blue box represents the Arduino)
 
+![Buzzer schematic](../images/buzzer.png)
+
+- Plug it back in and open the serial monitor again.
+
+Can you hear anything? If not check you haven't reversed the buzzer pin connections. Happens very often.
+
+### Play around with it!
+
+Try the following scenarios:
+
+- Change the 2 parameters in the `beep` function
+  - the first one - `700` is the pitch of the tone; valid ranges for this number are **100 - 16000** so anything between these two numbers;
+  - the second one - `300` is the duration of the beep - the bigger the number, the longer the beep; recomended ranges: **50 - 5000**
+  
+- Make it beep more than once. *Hint: copy and paste the `beep` function on a new line directly after the last delay*
+
+
+[To Task #2](https://github.com/dant14/Delta-sessions/tree/main/Week3/Task2)
