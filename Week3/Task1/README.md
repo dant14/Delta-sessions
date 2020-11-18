@@ -4,9 +4,11 @@ Welcome to week 3 Electronics.
 
 Today we are going to learn how to use ultrasonic sensors to measure distance and make some noise with Arduino. Here we go...
 
-## Task Goals
+## Task #1 Goals
 
 We will now see what it means to recive data in a readable format back from the Arduino and read it on our PCs.
+
+Oh yeah and we'll also do some buzzing. Betcha you can't wait
 
 ## Instructions
 
