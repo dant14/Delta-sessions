@@ -1,3 +1,9 @@
+/*
+  Task #2.
+
+  Here we are going to use ultrasound to measure distance. Emjoy.
+*/
+
 const int pingPin = 7; // Trigger Pin of Ultrasonic Sensor
 const int echoPin = 6; // Echo Pin of Ultrasonic Sensor
 const int buzzerPin = 8; // Buzzer positive pin
@@ -5,7 +11,7 @@ const int buzzerPin = 8; // Buzzer positive pin
 int counter = 0;
 
 void setup() {
-   Serial.begin(115200); // Starting Serial Terminal
+   Serial.begin(9600); // Starting Serial Terminal
    pinMode(pingPin, OUTPUT);
    pinMode(echoPin, INPUT);
 }
