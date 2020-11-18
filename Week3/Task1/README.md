@@ -1,4 +1,4 @@
-# Delta Week 3 / Task #1 - Make the Arduino say hello over serial and...(drum roll)..."THE BUZZER"
+# Delta Week 3 / Task #1 - Make the Arduino say "hello" over serial and...(drum roll)..."THE BUZZER"
 
 Welcome to week 3 Electronics.
 
