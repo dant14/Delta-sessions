@@ -1,10 +1,10 @@
 /*
   Task #2.
 
-  Here we are going to use ultrasound to measure distance. Emjoy.
+  Here we are going to use ultrasound to measure distance. Enjoy.
 */
 
-const int pingPin = 7; // Trigger Pin of Ultrasonic Sensor
+const int trigPin = 7; // Trigger Pin of Ultrasonic Sensor
 const int echoPin = 6; // Echo Pin of Ultrasonic Sensor
 const int buzzerPin = 8; // Buzzer positive pin
 
@@ -12,18 +12,18 @@ int counter = 0;
 
 void setup() {
    Serial.begin(9600); // Starting Serial Terminal
-   pinMode(pingPin, OUTPUT);
+   pinMode(trigPin, OUTPUT);
    pinMode(echoPin, INPUT);
 }
 
 void loop() {
    long duration, inches, cm;
    
-   digitalWrite(pingPin, LOW);
+   digitalWrite(trigPin, LOW);
    delayMicroseconds(2);
-   digitalWrite(pingPin, HIGH);
+   digitalWrite(trigPin, HIGH);
    delayMicroseconds(10);
-   digitalWrite(pingPin, LOW);
+   digitalWrite(trigPin, LOW);
    
    duration = pulseIn(echoPin, HIGH);
    inches = microsecondsToInches(duration);
@@ -34,7 +34,7 @@ void loop() {
    Serial.print("cm");
    Serial.println();
    delay(100);
-   if (cm > 1000)
+   if (cm > 500)
    {
     //do nothing because this is the stable range of the sensor
    }
