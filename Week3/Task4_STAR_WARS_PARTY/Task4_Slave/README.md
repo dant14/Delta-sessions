@@ -51,6 +51,8 @@ Need a schematic? Here you go:
 
 ![I2C schematic](../../images/i2c.png)
 
+ - Try and keep the colours of the wires consistent, otherwise you will get confused very quickly;
+
  - After you have connected to your neighbours, open and upload the [Task4_Slave.ino sketch](https://github.com/dant14/Delta-sessions/blob/main/Week3/Task4_STAR_WARS_PARTY/Task4_Slave/Task4_Slave.ino).
 
 Ha! You got an error.
