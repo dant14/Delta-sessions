@@ -4,7 +4,7 @@
 
 We are going to --read the title-- ^
 
-But first, have a look around and check if your mates have been successful and if anyone is behind, go and share your knowledge with them and help them out.
+But first, have a look around and check if your mates have reached this point and if anyone is behind, go and share your knowledge with them and help them out.
 
 Only then are you allowed to continue.
 
@@ -28,7 +28,7 @@ If you aren't sure which pins are which here are the connections:
 
 ### Reading the sensor
 
-- Delete all code from your Arduino window then copy and paste the contents of the Task2.ino into your sketch.
+- Delete **ALL** code from your Arduino window then copy and paste the contents of the Task2.ino into your sketch.
 
 - Verify and upload the sketch to your device.
 
