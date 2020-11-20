@@ -10,7 +10,7 @@ Here we go...
 
 ## Task #1 Goals
 
-We will now see what it means to recive data in a readable format back from the Arduino and read it on our PCs.
+We will now see what it means to receive data in a readable format back from the Arduino and read it on our PCs.
 
 Oh yeah and we'll also do some buzzing. Betcha you can't wait
 
