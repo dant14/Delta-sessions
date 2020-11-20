@@ -8,7 +8,7 @@ The 2 wires are:
  - Clock signal(**SCL**) - it's constantly ticking so that the devices are sincronized
  - Data signal(**SDA**)  - this one goes up and down (0V or 5V) depending on the data that is being transmitted
  
-![I2C schematic](../images/i2cd.gif)
+![I2C schematic](../../images/i2cd.gif)
 
 The way that the communication works is like this:
  - There is 1 'master' that sends and receives data on the 'bus' to and from the 'slave' devices.
@@ -49,7 +49,7 @@ The connections to the arduino are as follows:
 
 Need a schematic? Here you go:
 
-![I2C schematic](../images/i2c.png)
+![I2C schematic](../../images/i2c.png)
 
  - After you have connected to your neighbours, open and upload the [Task4_Slave.ino sketch](https://github.com/dant14/Delta-sessions/blob/main/Week3/Task4_STAR_WARS_PARTY/Task4_Slave/Task4_Slave.ino).
 
