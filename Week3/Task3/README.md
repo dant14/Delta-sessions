@@ -28,6 +28,8 @@ Connections as follows: (refer to image below)
  - LED positive leg -> D4 (with resistor between)
  - LED negative leg -> GND
  
+Just ignore the Ultrasound sensor cables for this one, they are not necessary for this circuit to work.
+ 
 ![PIR schematic](../images/pir1.png)
 
 This will demonstrate how a motion sensor works - move in front of it and see the LED light up for a few seconds!
