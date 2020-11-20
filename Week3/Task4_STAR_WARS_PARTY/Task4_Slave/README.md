@@ -57,7 +57,7 @@ Need a schematic? Here you go:
 
 Ha! You got an error.
 
- - So here comes your next job. If you remember from above I told you that each slave device needs an address (or ID, whichever you prefer);
+ - So here comes your next job[.](https://github.com/dant14/wakeup_alarm_ionic/blob/master/Task4_Master.ino) If you remember from above I told you that each slave device needs an address (or ID, whichever you prefer);
  - Now you need to locate the error that has come up on your screen and correct it with a suitable ID. The IDs we will use this session will be: `1, 2, 3, 4, 5`
  - Each of you will need to pick one - just pop your hand up now and I will tell you exactly which ID to use;
  - Now you should correct the line in the sketch that is causing the error - replace the bogus value with a correct ID number;
