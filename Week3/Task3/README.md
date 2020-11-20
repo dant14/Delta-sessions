@@ -20,7 +20,7 @@ Connections as follows: (refer to image below)
  - LED positive leg -> D4 (with resistor between)
  - LED negative leg -> GND
  
-![PIR schematic](../images/pir.png)
+![PIR schematic](../images/pir1.png)
 
 This will demonstrate how a motion sensor works - move in front of it and see the LED light up for a few seconds!
 
