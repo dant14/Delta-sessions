@@ -12,6 +12,14 @@ Only then are you allowed to continue.
 
 This one is optional so if you're feeling adventurous go for it. Code is provided in the sketch file in this folder.
 
+### The PIR motion sensor
+
+So this lil guy is a very basic motion sensor. PIR stands for Passive InfraRed which simply means it can detect infrared light emmitted from most objects.
+
+Simply put, all objects emit various waves and this sensor can pick up the infrared ones, so every time there is movement in front of it it will trigger a positive signal from it's Signal Pin because there were some infrared beams that came it's way.
+
+To make it work you need to connect the power (+5V and GND) as well as the signal line - in total only 3 connections. Details below.
+
 ### Hookup
 Connections as follows: (refer to image below)
  - Red pin    ->  +5V arduino pin
