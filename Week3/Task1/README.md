@@ -2,7 +2,11 @@
 
 Welcome to week 3 Electronics.
 
-Today we are going to learn how to use ultrasonic sensors to measure distance and make some noise with Arduino. Here we go...
+Today we are going to learn how to use ultrasonic sensors to measure distance and make some noise with Arduino. 
+
+We will also learn a bit about how we can make different arduinos talk to each other and make them sing a song together.
+
+Here we go...
 
 ## Task #1 Goals
 
