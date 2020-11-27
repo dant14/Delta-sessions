@@ -49,7 +49,7 @@ In order to have a working cap you need to:
  - take the arduino off your breadboard - please ask me to do this because it's very easy to bend and break the pins
  - connect the arduino pins WITHOUT the breadboard - only using jumper wires - according to the tables below
  - use your creative self to figure out how to attach it to your cap using the materials in the box
- - have fun trying to touch your nose! (D)
+ - have fun trying to touch your nose! (Don't actually touch it cuz Covid, I am not endorsing touching one's face, very bad hygiene)
  
  
 For the connections: (attach the battery last)
