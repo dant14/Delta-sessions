@@ -18,7 +18,7 @@ Due to the fact that we have dangerous equipment in the room today I would like 
 
 #################
 
-### If you break any of these rules I will imediately shut off the equipment and you will be IMMEDIATELY sent to a different Delta session, arrangements have been made for this to be possible. So please respect these rules for your own safety and your friends safety, so that everyone can enjoy this session.
+### If you break any of these rules I will immediately shut off the equipment and you will be IMMEDIATELY sent to a different Delta session, arrangements have been made for this to be the case. So please respect these rules for your own safety and your friends safety, so that everyone can enjoy this session.
 
 #################
 
