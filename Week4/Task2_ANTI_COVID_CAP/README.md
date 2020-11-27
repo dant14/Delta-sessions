@@ -18,7 +18,7 @@ Due to the fact that we have dangerous equipment in the room today I would like 
 
 #################
 
-### If you break any of these rules I will imediately shut off the equipment and no one will be allowed to use it any more, which will ruin the fun for everyone else. So please respect these rules for your own safety and your friends safety, so that everyone can enjoy this session.
+### If you break any of these rules I will imediately shut off the equipment and you will be IMMEDIATELY sent to a different Delta session, arrangements have been made for this to be possible. So please respect these rules for your own safety and your friends safety, so that everyone can enjoy this session.
 
 #################
 
@@ -80,4 +80,4 @@ For the connections: (attach the battery last)
 | Black  ->    | GND          |
 
 
-* The GND rail is a little adaptor for pins that you can use to connect multiple GND wires to a single arduino pin. I will provide you with one when you get to that point.
+* [The](https://docs.google.com/presentation/d/1l_CIk0PqJNQLfU4tgBS4jl3XlfezpwTllTIqkEpZ-CY/edit?usp=sharing) GND rail is a little adaptor for pins that you can use to connect multiple GND wires to a single arduino pin. I will provide you with one when you get to that point.
