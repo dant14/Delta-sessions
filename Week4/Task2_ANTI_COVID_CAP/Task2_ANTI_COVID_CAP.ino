@@ -2,7 +2,7 @@
   The COVID safe cap. Stay safe guys
 */
 
-const int ledPin = 3;    // LED pin
+const int ledPin = 5;    // LED pin
 const int echoPin = 6;   // Echo Pin of Ultrasonic Sensor
 const int trigPin = 7;   // Trigger Pin of Ultrasonic Sensor
 const int buzzerPin = 8; // Buzzer positive pin
